@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +39,76 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  font-family: 'Markazi Text', 'Times New Roman', Times, serif;
+  font-size: 64pt;
+}
+
+h2 {
+  font-family: 'Markazi Text', 'Times New Roman', Times, serif;
+  font-size: 40pt;
+}
+
+h3{
+  font-family: 'Karla', 'Times New Roman', Times, serif;
+  font-size: 18pt;
+}
+
+h4{
+  font-family: 'Karla', 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 20pt;
+}
+
+h5{
+  font-family: 'Karla', 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 16pt;
+}
+
+h6{
+  font-family: 'Karla', 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+p {
+  font-family: 'Karla', 'Times New Roman', Times, serif;
+  font-size: 16pt;
+  color: #495E57;
+}
+
+span {
+  font-family: 'Karla', 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 16pt;
+  color: #495E57;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  padding: 10px;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #495E57;
+}
+
+img {
+  float: left;
+  padding: 0px 25px;
 }

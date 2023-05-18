@@ -1,7 +1,5 @@
 import logo from './icons_assets/Logo.svg';
 
-import './Nav.css';
-
 function Nav() {
     return(
         <nav className="navbar-nav">
