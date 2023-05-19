@@ -1,0 +1,33 @@
+#specials {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr;
+    column-gap: 20px;
+}
+
+#card-1 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+#card-2 {
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+
+#card-3 {
+    grid-row-start: 2;
+    grid-column-start: 4;
+}
+
+#specials img {
+    height: 200px;
+    padding: 0;
+}
+
+h1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+}

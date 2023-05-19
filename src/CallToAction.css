@@ -1,0 +1,26 @@
+#hero {
+    max-height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    background-color: #495E57;
+    column-gap: 20px;
+    margin: auto;
+}
+
+#hero-text {
+    grid-column-start: 2;
+}
+
+#hero img {
+    height: 200px;
+    right: 0;
+}
+
+#hero h1 {
+    color: #F4CE14;
+}
+
+#hero h2, h3 {
+    color: white;
+}
+

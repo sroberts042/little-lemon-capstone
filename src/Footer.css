@@ -1,0 +1,37 @@
+#footer {
+    height: 30vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #495E57;
+    padding: 20px;
+}
+
+#footer img {
+    grid-column-start: 2;
+    width: 200px;
+}
+
+#doormat {
+    grid-column-start: 3;
+}
+
+#doormat li {
+    padding: 0;
+}
+
+#footer a {
+    color: #F4CE14;
+}
+
+#contact a {
+    color: white;
+}
+
+#contact {
+    grid-column-start: 4;
+}
+
+#social-media {
+    grid-column-start: 5;
+}
+

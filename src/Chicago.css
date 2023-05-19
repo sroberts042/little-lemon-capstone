@@ -1,0 +1,21 @@
+#about {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+#about h3 {
+    color: black;
+}
+
+#about img {
+    height: 200px;
+}
+
+#about-left {
+    grid-column-start: 2;
+}
+
+#about-right {
+    grid-column-start: 3;
+}

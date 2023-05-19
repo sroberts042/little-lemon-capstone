@@ -1,9 +1,6 @@
 .App {
-  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .App-logo {
@@ -43,47 +40,47 @@
 
 h1 {
   font-family: 'Markazi Text', 'Times New Roman', Times, serif;
-  font-size: 64pt;
+  font-size: 64px;
 }
 
 h2 {
   font-family: 'Markazi Text', 'Times New Roman', Times, serif;
-  font-size: 40pt;
+  font-size: 40px;
 }
 
 h3{
-  font-family: 'Karla', 'Times New Roman', Times, serif;
-  font-size: 18pt;
+  font-family: 'Karla', 'Times New Roman', Times, sans-serif;
+  font-size: 18px;
 }
 
 h4{
   font-family: 'Karla', 'Times New Roman', Times, serif;
   font-weight: bolder;
-  font-size: 20pt;
+  font-size: 20px;
 }
 
 h5{
   font-family: 'Karla', 'Times New Roman', Times, serif;
   font-weight: bolder;
-  font-size: 16pt;
+  font-size: 16px;
 }
 
 h6{
   font-family: 'Karla', 'Times New Roman', Times, serif;
   font-weight: bold;
-  font-size: 18pt;
+  font-size: 18px;
 }
 
 p {
   font-family: 'Karla', 'Times New Roman', Times, serif;
-  font-size: 16pt;
+  font-size: 16px;
   color: #495E57;
 }
 
 span {
   font-family: 'Karla', 'Times New Roman', Times, serif;
   font-weight: 500;
-  font-size: 16pt;
+  font-size: 16px;
   color: #495E57;
 }
 
