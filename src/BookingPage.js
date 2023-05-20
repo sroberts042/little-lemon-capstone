@@ -1,8 +1,14 @@
+import BookingForm from "./BookingForm";
 
-const BookingPage = () => {
+import "./BookingPage.css";
+
+const BookingPage = (props) => {
     return(
-        <div>
-            Booking Page
+        <div id="booking-page">
+            <h2>Book a Table</h2>
+            <BookingForm state={props.state}
+                        dispatch={props.dispatch}
+                        submitBooking={props.submitBooking}/>
         </div>
     )
 }

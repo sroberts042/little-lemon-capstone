@@ -1,0 +1,16 @@
+#reservation-form {
+    display: grid;
+    max-width: 200px;
+    /* gap: 20px; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+#reservation-form input, select {
+    margin-bottom: 20px;
+}
+
+#reservation-form label {
+    margin-bottom: 5px;
+}
