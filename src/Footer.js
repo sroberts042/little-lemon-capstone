@@ -7,47 +7,47 @@ import "./Footer.css";
 function Footer() {
     return(
         <footer id="footer">
-            <img src={ChefB} alt="chef image" />
+            <img src={ChefB} alt="chef" />
             <div id="doormat">
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/" aria-label="On Click Home">Home</Link>
                 </li>
                 <li>
-                    <Link to="/">About</Link>
+                    <Link to="/" aria-label="On Click About">About</Link>
                 </li>
                 <li>
-                    <Link to="/">Hero</Link>
+                    <Link to="/" aria-label="On Click Hero">Hero</Link>
                 </li>
                 <li>
-                    <Link to="/">Reviews</Link>
+                    <Link to="/" aria-label="On Click Reviews">Reviews</Link>
                 </li>
                 <li>
-                    <Link to="/">Specials</Link>
+                    <Link to="/" aria-label="On Click Specials">Specials</Link>
                 </li>
                 <li>
-                    <Link to="booking">Reservations</Link>
+                    <Link to="booking" aria-label="On Click Booking">Reservations</Link>
                 </li>
             </div>
             <div id="contact" >
                 <li>
-                    <a>Address</a>
+                    <a href="/">Address</a>
                 </li>
                 <li>
-                    <a>Phone Number</a>
+                    <a href="/">Phone Number</a>
                 </li>
                 <li>
-                    <a>Email</a>
+                    <a href="/" aria-label="On Click email">Email</a>
                 </li>
             </div>
             <div id="social-media" >
                 <li>
-                    <a>Facebook</a>
+                    <a href="/" aria-label="On Click facebook">Facebook</a>
                 </li>
                 <li>
-                    <a>Instagram</a>
+                    <a href="/" aria-label="On Click instagram">Instagram</a>
                 </li>
                 <li>
-                    <a>tiktok</a>
+                    <a href="/" aria-label="On Click tiktok">tiktok</a>
                 </li>
             </div>
         </footer>
